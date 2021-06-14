@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Newby",
+      "type": "Rod"
+    },
+    {
+      "id": 2,
+      "name": "Avg",
+      "type": "Rod"
+    },
+    {
+      "id": 3,
+      "name": "Pro",
+      "type": "Rod"
+    },
+    {
+      "id": 4,
+      "name": "Newby",
+      "type": "Reel"
+    },
+    {
+      "id": 5,
+      "name": "Avg",
+      "type": "Reel"
+    },
+    {
+      "id": 6,
+      "name": "Pro",
+      "type": "Reel"
+    },
+    {
+      "id": 7,
+      "name": "Corn",
+      "type": "Bait"
+    },
+    {
+      "id": 8,
+      "name": "Worm",
+      "type": "Bait"
+    },
+    {
+      "id": 9,
+      "name": "Lure",
+      "type": "Bait"
+    },
+    {
+      "name": "Beginner",
+      "type": "Rod",
+      "id": 10
+    }
+  ]
+}
