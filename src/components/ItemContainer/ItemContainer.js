@@ -8,13 +8,13 @@ function ItemContainer() {
   const [items, setItems] = useState([]);
 
   useEffect (() => {
-    fetch('http://localhost:4000/items')
+    fetch('https://goin-fishin-cml.herokuapp.com/items')
     .then(res => res.json())
     .then(itemData => setItems(itemData))
   }, [])
 
   function deleteItem(itemId) {
-    fetch(`http://localhost:4000/items/${itemId}`, {method: "DELETE"})
+    fetch(`https://goin-fishin-cml.herokuapp.com/items/${itemId}`, {method: "DELETE"})
       .then(res => res.json())
       .then(() => {
         const newItems = items.filter(item => item.id !== itemId);
@@ -31,7 +31,7 @@ function addItem(Item) {
     body: JSON.stringify(Item)
   }
 
-  fetch('http://localhost:4000/items', config)
+  fetch('https://goin-fishin-cml.herokuapp.com/items', config)
     .then(res => res.json())
     .then(newItem => {
       const newItems = [...items, newItem];
