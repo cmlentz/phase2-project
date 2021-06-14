@@ -19,8 +19,11 @@ function ItemForm({addItem}) {
 
   function handleSubmit(event){
     event.preventDefault();
-    const item = formState;
-    addItem(formState);
+    const item = {
+      name: formState.name,
+      type: formState.type
+    };
+    addItem(item);
   }
 
   return (

@@ -2,32 +2,32 @@
   "items": [
     {
       "id": 1,
-      "name": "Newby",
+      "name": "Bamboo Stick",
       "type": "Rod"
     },
     {
       "id": 2,
-      "name": "Avg",
+      "name": "Carbon Fiber",
       "type": "Rod"
     },
     {
       "id": 3,
-      "name": "Pro",
+      "name": "Ocean",
       "type": "Rod"
     },
     {
       "id": 4,
-      "name": "Newby",
+      "name": "Spinner",
       "type": "Reel"
     },
     {
       "id": 5,
-      "name": "Avg",
+      "name": "Baitcaster",
       "type": "Reel"
     },
     {
       "id": 6,
-      "name": "Pro",
+      "name": "Monster Catcher",
       "type": "Reel"
     },
     {
@@ -37,18 +37,13 @@
     },
     {
       "id": 8,
-      "name": "Worm",
-      "type": "Bait"
-    },
-    {
-      "id": 9,
       "name": "Lure",
       "type": "Bait"
     },
     {
-      "name": "Beginner",
-      "type": "Rod",
-      "id": 10
+      "id": 9,
+      "name": "Steak",
+      "type": "Bait"
     }
   ]
 }
